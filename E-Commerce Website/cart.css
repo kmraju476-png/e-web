@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.cart-item {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+button {
+  background: #088178;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+
+/* cart page wrapper */
+.cart-page{
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* product row */
+.cart-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card-bg);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* product image */
+.cart-item img{
+  width: 80px;
+  border-radius: 8px;
+}
+
+/* place order button */
+#placeOrder{
+  width: 100%;
+  padding: 15px;
+  background: #088178;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.place-order-btn {
+    display: inline-block;     /* poora box clickable */
+    text-align: center;
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;     /* underline remove */
+    transition: background 0.3s ease;
+}
+
+.place-order-btn:hover {
+    background-color: #45a049;
+}
+

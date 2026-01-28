@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXIST GAMING ACCESSORIES</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- LOGO -->
+  <section id="header">
+    <a href="#">
+      <img src="src/Picsart_26-01-07_22-01-45-371.png" class="logo" alt="">
+    </a>
+
+    <!-- MOBILE MENU LOGO -->
+    <div id="mobile">
+      <i id="bar">☰</i>
+    </div>
+
+
+    <!-- USER NAME DISPLAY -->
+    <span id="userName" style="margin-right:15px; font-weight:600;"></span>
+
+    <!-- NAVIGATION BAR -->
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <!--CART--> 
+        <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+</li>
+
+
+        <!-- LOGIN -->
+        <li id="loginLink"><a href="login.html">Login</a></li>
+
+
+        <!-- THEME TOGGLE BUTTON -->
+<button id="themeToggle" class="theme-btn">🌙</button>
+
+        <!-- LOGOUT -->
+        <li id="logoutLink" style="display:none;">
+          <a href="#" onclick="logout()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+ 
+  <!-- WEBSITE -->
+  <div class="website">
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <h1>Explore The Future</h1>
+      <p>Discover next-gen gaming accessories</p>
+      <button><a href="shop.html" class="shop-btn">Shop Now</a></button>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <!-- Product 1 -->
+    <section id="product1">
+      <h2>Featured Products</h2>
+      <p>New Gaming Collection</p>
+
+      <div class="pro-container">
+
+        <div class="pro">
+          <img src="src/th.jpg" alt="Gaming Headphone">
+          <div class="des">
+            <span>Gaming</span>
+            <h5>Gaming Headphone</h5>
+            <h4>₹1999</h4>
+          </div>
+          <button type="button" class="cart" onclick="addToCart('Gaming Headphone',1999)">🛒</button>
+
+
+        </div>
+
+        <!-- Product 2 -->
+        <div class="pro">
+          <img src="src/keyboard.jpg" alt="Mechanical Keyboard">
+          <div class="des">
+            <span>Gaming</span>
+            <h5>Mechanical Keyboard</h5>
+            <h4>₹2999</h4>
+          </div>
+          <button type="button" class="cart" onclick="addToCart('Mechanical Keyboard',2999)">🛒</button>
+
+
+        </div>
+
+
+        <!-- Product 3 -->
+        <div class="pro">
+          <img src="src/keyboard1.jpg" alt="RGB Gaming Keyboard">
+          <div class="des">
+            <span>Gaming</span>
+            <h5>RGB Gaming Keyboard</h5>
+            <h4>₹9999</h4>
+          </div>
+          <button type="button" class="cart" onclick="addToCart('RGB Gaming Keyboard',9999)">🛒</button>
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- JAVASCRIPT LINK -->
+  <script src="script.js"></script>
+
+   <!-- FEATURES SECTION -->
+  <section id="features">
+    <div class="fe-box">Free Shipping</div>
+    <div class="fe-box">Online Order</div>
+    <div class="fe-box">Save Money</div>
+    <div class="fe-box">24/7 Support</div>
+  </section>
+
+
+</body>
+</html>
+

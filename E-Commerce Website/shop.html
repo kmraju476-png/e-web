@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop - EXIST</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<!-- HEADER (same as home) -->
+<section id="header">
+  <a href="index.html">
+    <img src="src/Picsart_26-01-07_22-01-45-371.png" class="logo">
+  </a>
+
+  <ul id="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="shop.html">Shop</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+  </ul>
+</section>
+
+<!-- SHOP PRODUCTS -->
+<section id="product1">
+  <h2>Shop Products</h2>
+  <p>Premium Gaming Accessories</p>
+
+  <div class="pro-container">
+
+    <div class="pro">
+      <img src="src/th.jpg">
+      <div class="des">
+        <span>Gaming</span>
+        <h5>Gaming Headphone</h5>
+        <h4>₹1999</h4>
+      </div>
+      <button class="cart" onclick="addToCart('Gaming Headphone',1999)">🛒</button>
+    </div>
+
+    <div class="pro">
+      <img src="src/keyboard.jpg">
+      <div class="des">
+        <span>Gaming</span>
+        <h5>Mechanical Keyboard</h5>
+        <h4>₹2999</h4>
+      </div>
+      <button class="cart" onclick="addToCart('Mechanical Keyboard',2999)">🛒</button>
+    </div>
+
+    <div class="pro">
+      <img src="src/keyboard1.jpg">
+      <div class="des">
+        <span>Gaming</span>
+        <h5>RGB Gaming Keyboard</h5>
+        <h4>₹9999</h4>
+      </div>
+      <button class="cart" onclick="addToCart('RGB Gaming Keyboard',9999)">🛒</button>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
