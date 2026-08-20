@@ -1,0 +1,6 @@
+{
+  "name": "Śāstra Rule Precedence – Conflict Resolution System",
+  "description": "An interactive educational platform demonstrating conflict resolution between rules using Śāstric precedence principles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
