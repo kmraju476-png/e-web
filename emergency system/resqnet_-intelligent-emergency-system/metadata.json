@@ -1,0 +1,6 @@
+{
+  "name": "ResQNet — Intelligent Emergency Resource Coordination System",
+  "description": "Academic emergency-response simulation and decision-support system featuring Haversine distance, priority scoring, Dijkstra graph routing, dynamic rerouting, resource matching, and hospital allocation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
